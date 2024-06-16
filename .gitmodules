@@ -1,0 +1,3 @@
+[submodule "libtetris"]
+	path = libtetris
+	url = git@github.com:pelp/libtetris.git
