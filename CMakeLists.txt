@@ -4,6 +4,8 @@ project(cuda_particles CUDA)
 set(CMAKE_CUDA_STANDARD 26)
 
 include("cmake/glfw.cmake")
+add_subdirectory("cmake/glad")
+
 add_executable(cuda_particles main.cu)
 
 set_target_properties(cuda_particles PROPERTIES
